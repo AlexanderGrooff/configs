@@ -1,5 +1,4 @@
-#cd ~
-#mkdir -p .bash/themes/agnoster-bash
-#git clone https://github.com/speedenator/agnoster-bash.git .bash/themes/agnoster-bash
+mkdir -p ~/.bash/themes/agnoster-bash
+cp agnoster.bash ~/.bash/themes/agnoster-bash/agnoster.bash
 
 cat bashrc_theme_config >> ~/.bashrc

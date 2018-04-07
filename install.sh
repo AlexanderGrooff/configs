@@ -11,7 +11,7 @@ while getopts ":p:" o; do
 		echo "Installing ohmyzsh"
 		./iterm2/install_oh_my_zsh.sh
 		echo "Setting ZSH theme in ~/.zshrc to 'agnoster'"
-		perl -pi -e 's/ZSH_THEME=\"\w+\"/ZSH_THEME="agnostic"/g' ~/.zshrc
+		perl -pi -e 's/ZSH_THEME=\"\w+\"/ZSH_THEME="agnoster"/g' ~/.zshrc
 		echo "Installing zsh highlighting"
 		brew install zsh-syntax-highlighting
             	;;

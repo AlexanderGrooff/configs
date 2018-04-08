@@ -1,3 +1,8 @@
+" Set vim colors to solarized
 syntax enable
 set background=dark
 colorscheme solarized
+
+" Set tab characters to 4 spaces
+set tabstop=4
+set shiftwidth=4

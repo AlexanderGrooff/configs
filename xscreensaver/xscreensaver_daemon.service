@@ -1,0 +1,10 @@
+[Unit]
+Description=Start xscreensaver daemon without splash
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStart=/home/alexander/.config/xscreensaver/start_xscreensaver_daemon.sh
+
+[Install]
+WantedBy=multi-user.target

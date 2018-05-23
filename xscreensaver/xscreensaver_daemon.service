@@ -1,6 +1,6 @@
 [Unit]
 Description=Start xscreensaver daemon without splash
-After=network.target
+After=graphical.target
 
 [Service]
 Type=oneshot

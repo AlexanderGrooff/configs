@@ -1,10 +1,9 @@
 [Unit]
 Description=Start xscreensaver daemon without splash
-After=graphical.target
 
 [Service]
 Type=oneshot
-ExecStart=/home/alexander/.config/xscreensaver/start_xscreensaver_daemon.sh
+ExecStart=/bin/bash /home/alexander/.config/xscreensaver/start_xscreensaver_daemon.sh
 RemainAfterExit=true
 StandardOutput=journal
 

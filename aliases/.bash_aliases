@@ -23,13 +23,18 @@ function createAndMoveToDir {
 }
 alias mkd='createAndMoveToDir'
 
-# some git aliases
+# git aliases
 alias gsp='git stash pop'
+alias gcm='git checkout master'
+alias gp='git pull'
+alias gc='git commit'
+alias gca='git commit --amend'
 
-# some docker aliases
+# docker aliases
 alias drmc='docker rm $(docker ps -qa --no-trunc --filter "status=exited")'
 alias drmi='docker rmi $(docker images -a --filter=dangling=true -q)'
 alias drmv='docker volume ls -qf dangling=true | xargs -r docker volume rm'
+alias dc='docker-compose'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
